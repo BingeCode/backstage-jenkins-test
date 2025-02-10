@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'jenkins-component'
+  name: 'backstage-jenkins-test'
   description: 'a jenkins runner test component'
   annotations:
     jenkins.io/job-full-name: 'job/test,job/test' # use this instead
+    github.com/project-slug: BingeCode/backstage-jenkins-test
 
 spec:
   type: service
